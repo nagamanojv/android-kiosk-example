@@ -18,19 +18,28 @@
             android:id="@+id/button_toggle_kiosk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/enter_kiosk_mode" />
+            android:text="@string/enter_kiosk_mode"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/button_check_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/check_update" />
+            android:text="@string/check_update"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_remove_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_device_admin"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <WebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/layout_buttons"/>
+        android:layout_below="@id/layout_buttons" />
 
 </RelativeLayout>
